@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    
+    background-color: rgb(109, 1, 121);
+    display: flex;
+    justify-content: center;
+    font-family: "poppins";
+}
+.welcome{
+    color: rgba(26, 1, 26, 0.966);
+    font-family: "ubuntu";
+    font-weight: 700;
+   
+    
+}
+.container{
+    background-color: rgba(242, 235, 243, 0.801);
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    width: 90%;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400; 
+    color: rgb(34, 0, 28);
+    justify-content: center;
+    margin-top: 20px;
+}
+.signup_link a{
+  text-decoration: none;
+  color: rgb(243, 224, 245);
+  font-weight: 700;
+  background-color: rgb(58, 1, 112);
+  padding: 10px;
+  border-radius: 5px;
+}
+.signup_link a:hover{
+    color: rgb(250, 0, 229);
+
+}
+.login_btn{
+    margin: 10px;
+    
+}
+@media (width > 540px) {
+    .steps__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }}

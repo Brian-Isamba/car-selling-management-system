@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+  min-height: 100VH;
+}
+
+.section__header {
+  margin-bottom: 5px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.section__description {
+  max-width: 600px;
+  margin-inline: auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+
+img {
+  display: grid;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "poppins";
+  background-color: blueviolet;
+
+}
+.destination__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 2rem 1rem;
+}
+
+.destination__card img {
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  display: grid;
+}
+
+.destination__card__details {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: white;
+}
+
+.destination__card__details h4 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  columns: var(--text-dark);
+}
+
+
+.destination__rating {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  color: var(--white);
+  background-color: rgb(2, 2, 2);
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+
+@media (width > 540px) {
+  .destination__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+ 
+@media (width > 768px) {
+  nav {
+    position: static;
+    padding: 2rem 1rem;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+
+  .destination__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+.showcase__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .showcase__content {
+    grid-column: 2/4;
+  }
+
+  .banner__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+@media (width > 1200px) {
+  .header__content {
+    padding-inline: 1rem 0;
+  }
+
+  .destination__grid {
+    gap: 2rem;
+  }
+}
+}
+.name{
+  color: black;
+  font-family: "poppins";
+}
